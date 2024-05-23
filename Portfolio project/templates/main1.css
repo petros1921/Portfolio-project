@@ -1,0 +1,84 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  font-family: Liberation Mono;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-register {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #8B0000;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-register:hover {
+  background-color: red;
+}
+p {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.btn-signin {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #8B0000;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-signin:hover {
+  background-color: red;
+}
+
+.signup-link,
+.extra-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-link a,
+.extra-info a {
+  color: red;
+  text-decoration: none;
+}
+
+.signup-link a:hover,
+.extra-info a:hover {
+  text-decoration: underline;
+}
